@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulario - Inscrição de Evento</title>
+	</head>
+	<body>
+		<main>
+			<fieldset>
+				<legend>Dados Pessoais:</legend>
+			<form name="Evento", method="post", acion="inscrever">
+				<label>Nome: 
+					<input type="text" id="idNome" name="nome" placeholder="Digite seu Nome" required><br/>
+				</label>
+				<label>E-Mail: 
+					<input type="text" id="idEmail" name="email" placeholder="Digite um E-mail" required><br/>
+				</label>
+				<label>Telefone:
+					<input type="text" id="idTelefone" name="Telefone" required><br/>
+				</label>
+				<label>Data Nascimento:
+					<input type="date" id="idDataNascto" name="dataNasc"><br/>
+				</label>
+				<label>Empresa: 
+					<input type="text" id="idEmpresa" name="Empresa" required><br/>
+				</label>
+				<br/>
+				<label>Cargo:<br/>
+					<input type="Radio" id="idProprietario" name="cargo">Proprietário / Sócio<br/>
+					<input type="Radio" id="idPresidencia" name="cargo">Presidencia<br/>
+					<input type="Radio" id="idDiretoria" name="cargo">Diretoria<br/>
+					<input type="Radio" id="idGerencia" name="cargo">Gerencia<br/>
+					<input type="Radio" id="idSupervisao" name="cargo">Supervisão<br/>
+					<input type="Radio" id="idOutro" name="cargo" checked>Outro: <input type="text"><br/>
+				</label>
+				<br/>
+				<label>Cidade: 
+					<input type="text" id="idCidade" name="Cidade" required><br/>
+				</label>
+				<label>UF: 
+					<select id="idUF" name="uf" required>
+						<option>SP</option>
+						<option>RJ</option>
+						<option>GO</option>
+						<option>AC</option>
+						<option>ES</option>
+						<option>DF</option>
+					</select><br/>
+				</label>
+			</fieldset>
+				<br/>
+			<fieldset>
+				<legend>Tipo Inscrição:</legend>
+				<label>
+					<input type="Radio" id="idPFisica" name="tipoInscricao" checked>Pessoa Fisica<br/>
+					<input type="Radio" id="idPJuridica" name="tipoInscricao">Pessoa Jurídica<br/>
+				</label>
+			</fieldset>
+				<br/>
+			<fieldset>
+					<legend>Como ficou sabendo do evento?</legend>
+				<label>
+					<input type="checkbox" id="idRevistas" name="ficouSabendo">Revistas <br/>
+					<input type="checkbox" id="idJornais" name="ficouSabendo">Jornais <br/>
+					<input type="checkbox" id="idTelevisao" name="ficouSabendo">Televisão <br/>
+					<input type="checkbox" id="idInternet" name="ficouSabendo">Internet <br/>
+					<input type="checkbox" id="idPatrocinadores" name="ficouSabendo">Patrocinadores <br/>
+					<input type="checkbox" id="idOutros" name="ficouSabendo">Outros <br/>
+				</label>
+			</fieldset>
+				<br/>
+			<fieldset>
+					<legend>Qual interesse no evento?</legend>
+				<label>
+					<input type="checkbox" id="idPalestras" name="qualInteresse">Palestras <br/>
+					<input type="checkbox" id="idWorkShops" name="qualInteresse">Workshops <br/>
+					<input type="checkbox" id="idEstandes" name="qualInteresse">Estandes <br/>
+					<input type="checkbox" id="idTreinamentos" name="qualInteresse">Treinamentos <br/>
+					<input type="checkbox" id="idOutros" name="qualInteresse">Outros <br/>
+				</label>
+			</fieldset>
+				<br/>
+				<label>Nome Crachá: 
+					<input type="text" id="idNomeCracha" name="nomeCracha" required><br/>
+				</label>
+				<label>Forma de Pagamento: 
+					<select id="idFormaPagto" name="formaPagamento" required>
+						<option>Boleto Bancário</option>
+						<option>Cartão de Crédito</option>
+					</select><br/>
+				</label>
+				<br />	
+				<label>
+					<input type="checkbox" id="idInfosEmail" name="infoEmail">Deseja receber informações por email? <br/>
+				</label>
+				<label>
+				<input type="checkbox" id="idInfosSMS" name="infoEmail">Deseja receber informações por SMS? <br/>
+				</label>
+				<br/>
+				<label>Comentários Gerais: <br/>
+					<textarea cols="70" rows="10" name="comentariosGerais" id="idComentariosGerais">
+					</textarea>
+				</label>
+				<br/>
+				<br/>
+				<button>Enviar</button>
+				<input type="reset" value="Limpar"/>
+				<!-- Elementos -->
+			</fieldset>
+			</form>
+		</main>
+		<br/>
+		<br/>
+		<br/>
+ 			<center>
+ 			&copy; Fiap - 2018 | Desenvolvido por Fábio Salgarella (RM75733) - 1TDSG
+ 			</center>
+ 		</footer>
+	</body>
+</html>

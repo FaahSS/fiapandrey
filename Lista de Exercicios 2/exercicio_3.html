@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulario - Agenda de Contato</title>
+	</head>
+	<body>
+		<main>
+			<fieldset>
+				<legend>Dados Pessoais</legend>
+			<form name="Agenda", method="post", acion="agendar">
+				<label>Nome: 
+					<input type="text" id="idNome" name="nome" placeholder="Digite seu Nome" required><br/>
+				</label>
+				<label>E-Mail: 
+					<input type="text" id="idEmail" name="email" placeholder="Digite um E-mail" required><br/>
+				</label>
+				<label>Tipo E-Mail:<br/>
+					<input type="Radio" id="idComercial" name="TipoEmail">Comercial<br/>
+					<input type="Radio" id="idPessoal" name="TipoEmail" checked>Pessoal<br/>
+				</label>
+				<label>Cargo: 
+					<select id="idCargo" name="Cargo" required>
+						<option>Presidente</option>
+						<option>Vice-Presidente</option>
+						<option>Diretor</option>
+						<option>Gerente</option>
+						<option>Supervisor</option>
+						<option>Assistente</option>
+					</select><br/>
+				</label>
+				<label>Empresa:
+					<input type="text" id="idEmpresa" name="Empresa" required><br/>
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>Contatos</legend>
+				<label>Tel. Comercial:
+					<input type="text" id="idTelComercial" name="telCom" required><br/>
+				</label>
+				<label>Tel. Celular:
+					<input type="text" id="idTelCelular" name="telCel" required><br/>
+				</label>
+				<br/>
+				<label>Tipo Contato:<br/>
+					<input type="checkbox" id="idComercial" name="tipoContato">Comercial <br/>
+					<input type="checkbox" id="idPessoal" name="tipoContato">Pessoal <br/><br/>
+				</label>
+			</fieldset>
+				<br/>
+				<button>Enviar</button>
+				<input type="reset" value="Limpar"/>
+				<!-- Elementos -->
+			</form>
+		</main>
+		<br/>
+		<br/>
+		<br/>
+ 			<center>
+ 			&copy; Fiap - 2018 | Desenvolvido por Fábio Salgarella (RM75733) - 1TDSG
+ 			</center>
+ 		</footer>
+	</body>
+</html>

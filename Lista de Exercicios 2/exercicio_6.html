@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulario - Calculo de Gorjeta</title>
+	</head>
+	<body>
+		<main>
+			<fieldset>
+				<legend>Informações para o Calculo de Gorjetas:</legend>
+			<form name="Gorjeta", method="post", acion="calcularGorjeta">
+				<label>Valor da Conta: 
+					<input type="text" id="idValorConta" name="valorConta" placeholder="Digite o Valor da Conta" required><br/>
+				</label>
+				<label>% Gorjeta: 
+					<select id="idGorjeta" name="Gorjeta" required>
+						<option>5%</option>
+						<option>10%</option>
+						<option>15%</option>
+						<option>20%</option>
+					</select><br/>
+				</label>
+				<label>Numero de Pessoas: 
+					<input type="text" id="idNumeroPessoas" name="numPessoas" placeholder="Digite sua Altura" required><br/>
+				</label>
+			</fieldset>
+				<br/>
+				<button>Enviar</button>
+				<input type="reset" value="Limpar"/>
+			
+			</form>
+		</main>
+		<br/>
+		<br/>
+		<br/>
+ 			<center>
+ 			&copy; Fiap - 2018 | Desenvolvido por Fábio Salgarella (RM75733) - 1TDSG
+ 			</center>
+ 		</footer>
+	</body>
+</html>

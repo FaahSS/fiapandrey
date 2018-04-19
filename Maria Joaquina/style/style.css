@@ -1,0 +1,98 @@
+* {
+	font:13px Arial, Helvetica, Verdana;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+header {
+	text-align: center;
+	background-color: #8b2929;
+	padding: 30px;
+	border-radius: 20px 20px 0 0;
+	border-bottom: 4px #640505 solid;
+}
+
+.menu {
+	height: 30px;
+	width: 100%;
+	background-color: #8b2929;
+	height: 30px;
+	margin-left: 5%;
+}
+
+.fundo_menu {
+	background-color: #8b2929	;
+	height: 40px;
+}
+
+.menu li {
+	float: left;
+	text-align: left;
+	margin-left: 25px;
+	/*background-color: #8b2929;*/
+	/*background-image: */
+	padding-right: 10px;
+	padding-top: 10px;
+	/*border: 5px #640505 solid;*/
+}
+
+.menu li:hover {
+	background-color: #ccc;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.menu li a {
+	font-size: 25px;
+	color: #e74949;
+	text-decoration: none;
+}
+
+
+.titulos{
+	font-size:40px;
+	font-family: Verdana;
+	color: #e74949;
+
+}
+
+.sub-titulo{
+	font-size: 15px;
+	font-family: Verdana;
+	color: #e74949;
+}
+
+.conteudo{
+	font-size: 13px;
+	font-family: Verdana;
+	color: #434343;
+}
+
+.titulo-pagina{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+section {
+	margin: 60px 80px;
+}
+
+
+main {
+	margin: 0 auto;
+	width: 65%;
+	float:left;
+}
+
+aside {
+	width: 	25%;
+	float: right;
+	margin: 0 auto;
+}
+
+footer {
+	clear:both;
+}
